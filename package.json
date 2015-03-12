@@ -1,0 +1,20 @@
+{
+  "name": "Calculator",
+  "description": "",
+  "author": "",
+  "main": "server.js",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "body-parser": "~1.5.2",
+    "handlebars": "^3.0.0",
+    "hapi": "7.0.x",
+    "mongoose": "^3.8.23",
+    "good": "3.0.x",
+    "hapi-swagger": "0.4.x"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engine": "node >= 0.10.32"
+}
