@@ -7,4 +7,6 @@ var Math = require('../controllers/math');
 
 exports.endpoints = [
     { method: 'GET', path: '/{name}', config: Math.hello },
+    { method: 'GET', path: '/sum/{number1}/{number2}', config: Math.saveOperation },
+    { method: 'GET', path: '/results', config: Math.getAllOperations }
 ]
